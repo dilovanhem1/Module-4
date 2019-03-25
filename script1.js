@@ -1,21 +1,11 @@
-(function (window) {
-  var YaakovGreeter = {};
-  YaakovGreeter.name = "Yaakov";
-  var Greeting = "Hello ";
-  YaakovGreeter.sayHello = function () {
-	console.log(Greeting +  YaakovGreeter.name);
-  }
 
-  window.YaakovGreeter = YaakovGreeter;
-})(window);
- 
- (function (window) {
-  var JoeGreeter = {};
-  JoeGreeter.name = "Joe";
-  var Greeting = "Hello ";
-  JoeGreeter.sayHello = function () {
-	console.log(Greeting +  JoeGreeter.name);
-  }
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+//console.log(i);
 
-  window.JoeGreeter = JoeGreeter;
-})(window);
+for (var i = 0; i < names.length; i++) {
+	console.log("Hello " + names[i]);
+}
+
+
+
+
